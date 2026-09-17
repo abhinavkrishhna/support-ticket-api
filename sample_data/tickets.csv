@@ -1,0 +1,5 @@
+title,description,requester_email,priority,team,urgent
+Dashboard login is not working,My password reset did not work and I cannot access the dashboard.,meera@example.com,,,false
+Sales file did not arrive,The SFTP export was missing this morning and the dashboard has old data.,dev@example.com,high,data-operations,false
+Checkout API shows an error,The checkout page returns a server error for customers.,ops@example.com,,,true
+Invoice has the wrong amount,The invoice amount is different from the agreed amount.,finance@example.com,medium,finance-operations,false
