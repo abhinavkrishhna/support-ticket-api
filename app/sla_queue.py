@@ -8,7 +8,6 @@ from datetime import datetime
 
 from app.models import Ticket, TicketPriority
 
-
 PRIORITY_WEIGHT = {
     TicketPriority.URGENT: 0,
     TicketPriority.HIGH: 1,

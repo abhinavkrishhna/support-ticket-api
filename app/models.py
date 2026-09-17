@@ -43,7 +43,7 @@ class Ticket:
         return self.status is not TicketStatus.RESOLVED
 
     @classmethod
-    def from_row(cls, row: Any) -> "Ticket":
+    def from_row(cls, row: Any) -> Ticket:
         """Make a Ticket object from a database row."""
         return cls(
             id=row["id"],
@@ -79,7 +79,7 @@ class TicketEvent:
     created_at: datetime
 
     @classmethod
-    def from_row(cls, row: Any) -> "TicketEvent":
+    def from_row(cls, row: Any) -> TicketEvent:
         return cls(
             id=row["id"],
             ticket_id=row["ticket_id"],
